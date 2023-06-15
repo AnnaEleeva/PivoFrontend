@@ -25,15 +25,14 @@ function App() {
             </div>
 
             <div className="User">
-                <div className="Info">
-                    <h1>Name: {name}</h1>
-                    <h1>Age: {age}</h1>
-                </div>
-
                 <div className="Photo">
                     <img src={photo} alt=""/>
                 </div>
 
+                <div className="Info">
+                    <h1>Name: {name}</h1>
+                    <h1>Age: {age}</h1>
+                </div>
                 <div className="Id">
                     <h1>id: {id}</h1>
                     <input
