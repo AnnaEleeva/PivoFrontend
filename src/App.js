@@ -31,7 +31,7 @@ function App() {
                 </div>
 
                 <div className="Photo">
-                    <img src={photo}/>
+                    <img src={photo} alt=""/>
                 </div>
 
                 <div className="Id">
