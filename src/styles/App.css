@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #536d76;
+    font-weight: 400;
+    font-size: 1em;
+    font-family: 'Raleway', Arial, sans-serif;
+
+    background: #f9f9f9 url(../images/bg.jpg);
+    -webkit-font-smoothing: antialiased;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+/* Header */
+.codrops-header {
+    margin: 0 auto;
+    padding: 4em 1em;
+    text-align: center;
+}
+
+.codrops-header h1 {
+    margin: 0;
+    font-weight: 800;
+    font-size: 4em;
+    line-height: 1.3;
+}
+
+.codrops-header h1 span {
+    display: block;
+    padding: 0 0 0.6em 0.1em;
+    font-size: 45%;
+    font-weight: 300;
+    color: #7e959d;
+}
+
+#root{
+    justify-content: center;
+}
+
+.App{
+}
+
+.Random {
+    width: 400px;
+    display: flex;
+    padding: 15px;
+    border: 4px solid salmon;
+    margin-top: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+.Random h1{
+    display:inline;
+}
+.Random h2{
+    font-weight: 800;
+    font-size: 4em;
+    line-height: 1.3;
+    color: salmon;
+    text-align: center;
+}
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+.User {
+    display: flex;
+    padding: 15px;
+    border: 4px solid salmon;
+    margin-top: 15px;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+}
+
+.User .Info{
+    color: rebeccapurple;
+    padding: 15px;
+    margin-top: 15px;
+    justify-content: space-between;
+    display: block;
+
+    font-weight: 100;
+    font-size: 2em;
+    line-height: 1.1;
+}
+
+.User .Photo {
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    padding: 5px 20px;
+}
+
+.User .Photo:hover {
+    width: 300px;
+    height: 300px;
+    display: flex;
+}
+
+.User .Id {
+    padding: 15px;
+    margin-top: 15px;
+    justify-content: space-between;
+    display: block;
+}
+
+.User img{
+    width:100%;
+}
