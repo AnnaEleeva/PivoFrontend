@@ -1,13 +1,13 @@
 import React, {useState} from 'react';
 import axios from "axios";
 
-const RandomName = function () {
+const RandomName = function ({name, onChange}) {
     const  [randomName, setRandomName] = useState('random_name')
 
     async function fetchName(){
         // const response = await axios.get('http://localhost:8081/api/name')
         const response = await axios.get('https://pivoback.azurewebsites.net/api/name')
-        setRandomName(response.data)
+        onChange(response.data)
     }
 
     return (

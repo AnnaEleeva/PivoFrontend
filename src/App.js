@@ -4,6 +4,8 @@ import RandomName from "./components/RandomName";
 import './styles/App.css';
 function App() {
 
+    const  [randomName, setRandomName] = useState('random_name')
+
     const [id, setId] = useState('0')
 
     const  [name, setName] = useState('user_name')
@@ -21,7 +23,7 @@ function App() {
     return (
         <div className="App">
             <div className="Random">
-                <RandomName/>
+                <RandomName name={randomName} onChange={(name) => setRandomName}/>
             </div>
 
             <div className="User">
