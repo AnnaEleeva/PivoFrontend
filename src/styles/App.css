@@ -68,15 +68,9 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
-.Random h1{
-    display:inline;
-}
+
 .Random h2{
-    font-weight: 800;
-    font-size: 2em;
-    line-height: 1.3;
     color: salmon;
-    text-align: center;
 }
 
 button {
