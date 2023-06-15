@@ -5,7 +5,8 @@ const RandomName = function () {
     const  [randomName, setRandomName] = useState('random_name')
 
     async function fetchName(){
-        const response = await axios.get('http://localhost:8081/api/name')
+        // const response = await axios.get('http://localhost:8081/api/name')
+        const response = await axios.get('https://pivoback.azurewebsites.net/api/name')
         setRandomName(response.data)
     }
 
