@@ -14,7 +14,7 @@ function App() {
 
 
     async function fetchUser(){
-        const response = await axios.get('https://pivoback.azurewebsites.net/api/user?userId='+id)
+        const response = await axios.get('https://pivo-backend.azurewebsites.net/api/user?userId='+id)
         setName(response.data.name)
         setAge(response.data.age)
         setPhoto(response.data.link)
