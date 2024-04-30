@@ -43,7 +43,7 @@ function App() {
                         onChange={event => setId(event.target.value)}
                     />
                     <br></br>
-                    <button onClick={fetchUser}>GET USER FROM SERVER</button>
+                    <button onClick={fetchUser}>GET USER FROM SERVER!</button>
 
                 </div>
 
